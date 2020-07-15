@@ -23,6 +23,7 @@
   
   .lead {
     font-size: 1.5rem;
+    list-style: none;
   }
   
   .imglogomenu{
@@ -119,6 +120,11 @@
   
  
   }
+
+   section#contactousuario {
+    background-image: radial-gradient(circle at 52% 33%, rgba(17, 17, 17,0.08) 0%, rgba(17, 17, 17,0.08) 33.333%,rgba(74, 74, 74,0.08) 33.333%, rgba(74, 74, 74,0.08) 66.666%,rgba(130, 130, 130,0.08) 66.666%, rgba(130, 130, 130,0.08) 99.999%),radial-gradient(circle at 70% 65%, rgba(129, 129, 129,0.08) 0%, rgba(129, 129, 129,0.08) 33.333%,rgba(95, 95, 95,0.08) 33.333%, rgba(95, 95, 95,0.08) 66.666%,rgba(60, 60, 60,0.08) 66.666%, rgba(60, 60, 60,0.08) 99.999%),radial-gradient(circle at 97% 89%, rgba(21, 21, 21,0.08) 0%, rgba(21, 21, 21,0.08) 33.333%,rgba(89, 89, 89,0.08) 33.333%, rgba(89, 89, 89,0.08) 66.666%,rgba(156, 156, 156,0.08) 66.666%, rgba(156, 156, 156,0.08) 99.999%),linear-gradient(69deg, rgb(17, 9, 206),rgb(0, 7, 107));
+    opacity: 100%;
+  }
   
   .imglogo{
 
@@ -146,15 +152,17 @@
     font-size: large;
     text-align: center;
     margin: auto;
+    
  
   }
   .grid-2 {
-    margin: auto;
+    margin-top: 200px;
     display: grid;
     grid-gap: 20px;
     grid-template-columns: repeat(2, 1fr);
     text-decoration: none;
     font-size: larger;
+    
   }
   .container2 {
     max-width: 960px;
@@ -162,14 +170,74 @@
     overflow: hidden;
     padding: 1px;
     font-weight: lighter;
+    
   }
-  
+   .Vlink{
+    color: rgb(0, 60, 255);
+    list-style: none;
+
+   }
+
+   .contactanos{
+    animation: ease-in;
+
+   }
+
+   .contactoImg{
+    margin-top: 30px;
+    text-align: center;
+    font-size: 4rem;
+   }
+
+
+   .contactoPM{
+    padding-top: 20px;
+    text-align: center;
+    font-size: 35px;
+    
+
+   }
+
+
+   form{
+     padding-top: 20px;
+     width: 700px;
+     margin: 0;
+     background-color: rgba(51, 51, 51, 0);
+   }
+
+   input{
+     margin: 15px;
+     padding:10px;
+     width: 640px;
+     font-size: 18px;
+     border: none;
+     margin-bottom: 5px;
+   }
+
+   textarea{
+     font-size: 18px;
+     margin: 15px;
+     padding: 10px;
+     min-width: 640px;
+     max-width: 640px;
+     min-height: 100px;
+     max-height: 200px;
+   }
 
   .footer{
     margin: auto;
     background-color: black;
     text-align: center;
     font-size: 1rem;
+    
+
+  }
+  .footer img{
+    padding-top: 5px;
+    height: 70px;
+    width: 70px;
+
   }
   
 /* RESPONSIVE */
@@ -216,6 +284,16 @@
     top: 0;
   }
 }
+
+  
+
+
+
+    
+
+  
+  
+
 
   
 
